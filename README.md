@@ -2,6 +2,8 @@
 
 This project uses Node's Readline to read the starting live bacteria coordinates as standard input, and produces next generation live bacteria coordinates as standard output. 
 
+Clone the git repositary and run:
+
 ```http   
 npm install
 ``` 
