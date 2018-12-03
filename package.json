@@ -1,0 +1,17 @@
+{
+  "name": "bacteria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./spec/*.spec.js",
+    "start": "node index.js",
+    "multigen": "cat ./data/input.txt | node index.js > ./data/gen1.txt && cat ./data/gen1.txt | node index.js > ./data/gen2.txt && cat ./data/gen2.txt | node index.js > ./data/gen3.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
